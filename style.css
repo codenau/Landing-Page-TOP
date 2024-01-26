@@ -1,0 +1,174 @@
+/* reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header {
+  background-color: #1f2937;
+  padding: 10px 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  flex: 1;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+nav > ul {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  font-size: 18px;
+  color: #e5e7eb;
+  justify-content: space-between;
+}
+
+/* Hero Section */
+
+.hero-section {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  padding: 100px 100px;
+  gap: 20px;
+}
+
+.hero-section > * {
+  flex: auto;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-section p {
+  font-size: 18px;
+  color: #e5e7eb;
+  max-width: 35ch;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  margin-top: 20px;
+  padding: 5px 30px;
+  border: inherit;
+  border-radius: 5px;
+  color: #e5e7eb;
+}
+
+.hero-section img {
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+}
+
+/* Information Section */
+.information {
+  padding: 10px 100px;
+
+}
+.information > h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+
+}
+
+.info-img-group {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.info-img {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.info-img img {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+.info-img p {
+  text-align: center;
+}
+
+/* Quote Section */
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 10px 100px;
+}
+
+blockquote {
+  padding-block: 50px;
+  font-size: 18px;
+  font-style: italic;
+  max-width: 40ch;
+  margin: 0 auto;
+}
+
+span {
+  display: block;
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* Action-section */
+
+.action {
+  padding: 30px 100px;
+}
+.action-banner {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 20px 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.action h2 {
+  font-size: 20px;
+}
+.action button {
+  background-color: inherit;
+  border: 1px solid #f9faf8;
+  padding: 3px 40px;
+  border-radius: 10px;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 20px;
+  color: #f9faf8;
+}
